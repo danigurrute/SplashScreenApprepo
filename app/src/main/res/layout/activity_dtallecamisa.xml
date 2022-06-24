@@ -7,6 +7,16 @@
     tools:context=".detallesueterpolar">
 
     <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="11dp"
+        app:srcCompat="@drawable/ic_baseline_favorite_border_24" />
+
+    <ImageView
         android:id="@+id/imageView11"
         android:layout_width="52dp"
         android:layout_height="54dp"
