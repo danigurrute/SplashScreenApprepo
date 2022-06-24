@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".usuario_cliente_mensaje">
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="105dp"
+        android:layout_height="63dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="131dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/logousuario"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="161dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="22dp"
+        android:text="Mensajes"
+        android:textColor="#0C0C0C"
+        android:textSize="35dp"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="410dp"
+        android:layout_height="107dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="0dp"
+        android:onClick="onClick"
+        android:text="                                                           CHAT" />
+
+
+</RelativeLayout>

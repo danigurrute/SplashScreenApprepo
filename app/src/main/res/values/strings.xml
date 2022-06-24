@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Reciclepays</string>
+    <string name="inicio_sesion">INICIO DE SESION</string>
+    <string name="Acceso">Acceder</string>
+    <string name="email">EMAIL O TELEFONO</string>
+    <string name="contraseña">CONTRASEÑA</string>
+</resources>

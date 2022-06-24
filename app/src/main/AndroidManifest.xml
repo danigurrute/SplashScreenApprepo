@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.splashscreenapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar">
+        <activity
+            android:name=".herramientacliente"
+            android:exported="false" />
+        <activity
+            android:name=".detallemaderap"
+            android:exported="false" />
+        <activity
+            android:name=".detalleladrillosp"
+            android:exported="false" />
+        <activity
+            android:name=".detallejarronA"
+            android:exported="false" />
+        <activity
+            android:name=".detalletriciclo"
+            android:exported="false" />
+        <activity
+            android:name=".detallemesa"
+            android:exported="false" />
+        <activity
+            android:name=".dtallecamisa"
+            android:exported="false" />
+        <activity
+            android:name=".detallebolso"
+            android:exported="false" />
+        <activity
+            android:name=".detallesueterpolar"
+            android:exported="false" />
+        <activity
+            android:name=".usuario_cliente_sin_login"
+            android:exported="false" />
+        <activity
+            android:name=".omitir_login"
+            android:exported="false" />
+        <activity
+            android:name=".usuario_cliente_mensaje"
+            android:exported="false" />
+        <activity
+            android:name=".usuario_cliente_cuenta"
+            android:exported="false" />
+        <activity
+            android:name=".usuario_cliente_catalogo"
+            android:exported="false" />
+        <activity
+            android:name=".administrador"
+            android:exported="false" />
+        <activity
+            android:name=".usuario_cliente_registro"
+            android:exported="false" />
+        <activity
+            android:name=".Usuariorecolector"
+            android:exported="false" />
+        <activity
+            android:name=".usuariocliente"
+            android:exported="false" />
+        <activity
+            android:name=".Admin"
+            android:exported="false" />
+        <activity
+            android:name=".vistausuariorecolector"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/Theme.SplashScreenApp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
