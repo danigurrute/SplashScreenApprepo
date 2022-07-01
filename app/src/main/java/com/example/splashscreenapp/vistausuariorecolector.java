@@ -15,7 +15,10 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapView;
 import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.model.BitmapDescriptor;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
 
 
 public class vistausuariorecolector extends AppCompatActivity implements View.OnClickListener, OnMapReadyCallback {
@@ -41,12 +44,22 @@ public class vistausuariorecolector extends AppCompatActivity implements View.On
                 Intent intent = new Intent(this, MainActivity.class);
                 startActivity(intent);
                 break;
+
+            case R.id.imageView5:
+                Intent intent1 = new Intent(this, mensaje_user_recolec.class);
+                startActivity(intent1);
+                break;
         }
     }
 
     @Override
     public void onMapReady(@NonNull GoogleMap googleMap) {
         googleMap = googleMap;
+        LatLng sydney = new LatLng(2.4517722,-76.5182616);
+        googleMap.addMarker(new MarkerOptions().position(sydney).title("P.R sna juan"));
+        googleMap.setMapType(GoogleMap.MAP_TYPE_TERRAIN);
+        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(sydney,5));
+
         googleMap.getUiSettings().setMyLocationButtonEnabled(false);
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             // TODO: Consider calling
@@ -59,8 +72,6 @@ public class vistausuariorecolector extends AppCompatActivity implements View.On
             return;
         }
         googleMap.setMyLocationEnabled(true);
-
-        googleMap.moveCamera(CameraUpdateFactory.newLatLng(new LatLng(43.1, -87.9)));
     }
 
     @Override

@@ -33,18 +33,6 @@
         android:textSize="14sp"
         android:onClick="onClick"/>
 
-    <SearchView
-        android:layout_width="351dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="77dp"
-        android:layout_marginBottom="616dp"
-        android:background="@drawable/border_buscador2" />
-
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="82dp"
@@ -95,6 +83,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="156dp"
         android:layout_marginBottom="44dp"
+        android:onClick="onClick"
         app:srcCompat="@drawable/mensajes" />
 
     <ImageView

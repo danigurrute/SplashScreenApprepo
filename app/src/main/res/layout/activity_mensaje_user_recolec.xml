@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mensaje_user_recolec">
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="410dp"
+        android:layout_height="53dp"
+        android:background="@drawable/border_redondeado3"
+        android:gravity="center"
+        android:text="Daniel Bolaños"
+        android:textColor="#FBFBFB"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="48dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_margin="2dp"
+        app:srcCompat="@drawable/usuario"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="46dp"
+        android:layout_height="37dp"
+        android:layout_margin="8dp"
+        android:layout_gravity="right"
+        app:srcCompat="@android:drawable/stat_sys_speakerphone"
+        tools:layout_editor_absoluteX="314dp"
+        tools:layout_editor_absoluteY="8dp" />
+</FrameLayout>

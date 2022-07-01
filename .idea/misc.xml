@@ -3,10 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Reciclepays/app/src/main/res/drawable/border_aceptar.xml" value="0.1745" />
+        <entry key="..\:/Reciclepays/app/src/main/res/drawable/border_buscador2.xml" value="0.1745" />
+        <entry key="..\:/Reciclepays/app/src/main/res/drawable/border_rechazar.xml" value="0.1745" />
+        <entry key="..\:/Reciclepays/app/src/main/res/drawable/border_redondeado.xml" value="0.1745" />
+        <entry key="..\:/Reciclepays/app/src/main/res/drawable/border_redondeado2.xml" value="0.1745" />
+        <entry key="..\:/Reciclepays/app/src/main/res/drawable/border_redondeado3.xml" value="0.1745" />
+        <entry key="..\:/Reciclepays/app/src/main/res/drawable/borderoles.xml" value="0.1745" />
+        <entry key="..\:/Reciclepays/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Reciclepays/app/src/main/res/layout/activity_mensaje_user_recolec.xml" value="0.1" />
+        <entry key="..\:/Reciclepays/app/src/main/res/layout/activity_splash_screen.xml" value="0.36666666666666664" />
+        <entry key="..\:/Reciclepays/app/src/main/res/layout/activity_usuario_cliente_catalogo.xml" value="0.22" />
+        <entry key="..\:/Reciclepays/app/src/main/res/layout/activity_usuario_cliente_cuenta.xml" value="0.36666666666666664" />
+        <entry key="..\:/Reciclepays/app/src/main/res/layout/activity_vistausuariorecolector.xml" value="0.33" />
+        <entry key="..\:/Reciclepays/app/src/main/res/menu/men_recolec.xml" value="0.36666666666666664" />
+        <entry key="..\:/Reciclepays/app/src/main/res/menu/menu_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Trabajos (Instructores)/Gustavo Salazar/Proyecto android studio 813/Reciclepays/app/src/main/res/layout/activity_administrador.xml" value="0.2796296296296296" />
         <entry key="..\:/Trabajos (Instructores)/Gustavo Salazar/Proyecto android studio 813/Reciclepays/app/src/main/res/layout/activity_detallesueterpolar.xml" value="0.36018518518518516" />
         <entry key="..\:/Trabajos (Instructores)/Gustavo Salazar/Proyecto android studio 813/Reciclepays/app/src/main/res/layout/activity_omitir_login.xml" value="0.33" />
         <entry key="..\:/Trabajos (Instructores)/Gustavo Salazar/Proyecto android studio 813/Reciclepays/app/src/main/res/layout/activity_usuariocliente.xml" value="0.36018518518518516" />
+        <entry key="..\:/Trabajos (Instructores)/Gustavo Salazar/Proyecto android studio 813/Reciclepays/app/src/main/res/menu/menu_main.xml" value="0.14907407407407408" />
         <entry key="..\:/Users/SENA/Desktop/Proyecto android studio 813/Reciclepays/app/src/main/res/layout/activity_administrador.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/SENA/Desktop/Proyecto android studio 813/Reciclepays/app/src/main/res/layout/activity_detallebolso.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/SENA/Desktop/Proyecto android studio 813/Reciclepays/app/src/main/res/layout/activity_detallejarron.xml" value="0.36666666666666664" />
